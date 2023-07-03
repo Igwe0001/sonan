@@ -1,0 +1,106 @@
+@import "../abstract/general";
+@import "../abstract/variables";
+
+#Hero {
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 9rem;
+  color: white;
+  background-image: linear-gradient(to right bottom, $hero-gradient),
+    url("../assets/linkedin-sales-solutions-AhirGl0nhww-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section-container {
+  @include section-styles;
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// linear-gradient(to right bottom, rgb(49, 46, 129), rgba(49, 46, 129, 0))
+
+.hero-content--1 {
+margin-top: 4rem;
+}
+
+.hero-text {
+  text-align: left;
+
+  h1 {
+    font-size: clamp(2.5rem, 4.5vw, 7rem);
+    padding: 1rem 0;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
+    line-height: 3.4rem;
+    padding-top: 3rem;
+  }
+}
+
+.hero-links {
+  // outline: 1px solid;
+  margin-top: 5rem;
+  display: flex;
+
+  a {
+    // outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+    border-radius: 1rem;
+    font-size: 1em;
+    svg {
+      width: 3rem;
+      margin-right: 0.8rem;
+    }
+
+    &:first-child {
+      background-color: $white;
+      color: $text-blue;
+    }
+    &:last-child {
+      color: $white;
+    }
+  }
+}
+
+.hero-content--2 {
+  // outline: 1px solid blue;
+  width: 90%;
+  margin-top: 7.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-row-gap: 2.5rem;
+  div {
+    // outline: 1px solid;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+
+    img {
+      width: 12rem;
+      width: min(27vw, 12rem);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .hero-text {
+    text-align: left;
+
+    p {
+      padding-right: 40%;
+    }
+  }
+
+  .hero-links a {
+    margin-right: 4rem;
+  }
+}

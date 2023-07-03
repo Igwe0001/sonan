@@ -1,0 +1,61 @@
+@import "../abstract/general";
+@import "../abstract/variables";
+
+#Detail {
+  padding: 8.5rem 0;
+}
+
+.detail-section-container {
+  display: flex;
+  flex-direction: column;
+  width: min(95%, 128rem);
+  margin: auto;
+
+  h2 {
+    color: $detail-text-heading;
+    padding: 2rem 0;
+    // letter-spacing: .5rem;
+    line-height: 2.7rem;
+    font-size: clamp(2.3rem, 3.5vw, 3.7rem);
+  }
+
+  p {
+    color: $detail-text-paragraph;
+    padding-bottom: 2rem;
+    line-height: 2.8rem;
+    font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+    font-weight: 400;
+  }
+
+  a {
+    padding: 0;
+    color: $text-blue;
+  }
+}
+
+.detail-image {
+  img {
+    width: min(100%, 76.8rem);
+    display: block;
+    margin: auto;
+    border-radius: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .detail-section-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5rem;
+
+    h2 {
+      line-height: 3.9rem;
+    }
+
+    p {
+      line-height: 3.2rem;
+    }
+  }
+
+
+}

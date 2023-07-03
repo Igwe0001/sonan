@@ -1,0 +1,15 @@
+// Abstracts
+@import "./abstract/general";
+@import "./abstract/variables";
+
+// Components 
+@import "./components/header";
+@import "./components/footer";
+
+//Home page styles
+@import "./Homepage/hero.scss";
+@import "./Homepage/detail.scss";
+@import "./Homepage/ceo.scss";
+@import "./Homepage/collection";
+@import "./Homepage/objective";
+@import "./Homepage/blog";
