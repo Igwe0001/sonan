@@ -612,36 +612,6 @@ section {
     line-height: 3.2rem;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  min-height: 100vh;
-}
-
-body {
-  min-height: 100vh;
-  height: 100%;
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
-}
-
-main {
-  width: 100%;
-}
-
-section {
-  width: 100%;
-}
-
 #ceo {
   padding: 10rem 0;
   background-color: #f9fafb;
@@ -695,10 +665,12 @@ section {
 
 .dot-svg svg {
   color: lightgray;
-  width: 30rem;
+  width: min(150%, 30rem);
   background-color: transparent;
   position: absolute;
-  z-index: -1;
+  z-index: -1000;
+  top: 150%;
+  left: -50%;
 }
 
 .ceo-text {
@@ -749,6 +721,10 @@ section {
   }
   .ceo-text p {
     line-height: 3.5rem;
+  }
+  .dot-svg svg {
+    top: initial;
+    left: initial;
   }
 }
 * {
