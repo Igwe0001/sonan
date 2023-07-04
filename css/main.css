@@ -643,9 +643,6 @@ section {
   left: -50%;
 }
 
-.ceo-text {
-  padding: 2rem;
-}
 .ceo-text p {
   font-size: clamp(2rem, 3.5vw, 2.8rem);
   font-weight: 400;
