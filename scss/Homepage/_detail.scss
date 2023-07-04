@@ -1,6 +1,3 @@
-@import "../abstract/general";
-@import "../abstract/variables";
-
 #Detail {
   padding: 8.5rem 0;
 }
@@ -8,7 +5,7 @@
 .detail-section-container {
   display: flex;
   flex-direction: column;
-  width: min(95%, 128rem);
+  width: min(90%, 128rem);
   margin: auto;
 
   h2 {

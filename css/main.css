@@ -37,7 +37,7 @@ header {
 header nav {
   position: relative;
   height: inherit;
-  width: 95%;
+  width: 90%;
   max-width: 128rem;
   margin: auto;
   display: -webkit-box;
@@ -210,7 +210,7 @@ footer {
 }
 
 .footer-container {
-  width: 95%;
+  width: 90%;
   max-width: 128rem;
   margin: auto;
 }
@@ -434,7 +434,7 @@ section {
 }
 
 .hero-section-container {
-  width: 95%;
+  width: 90%;
   max-width: 128rem;
   margin: auto;
   display: -webkit-box;
@@ -524,36 +524,6 @@ section {
     margin-right: 4rem;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  min-height: 100vh;
-}
-
-body {
-  min-height: 100vh;
-  height: 100%;
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
-}
-
-main {
-  width: 100%;
-}
-
-section {
-  width: 100%;
-}
-
 #Detail {
   padding: 8.5rem 0;
 }
@@ -566,7 +536,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: min(95%, 128rem);
+  width: min(90%, 128rem);
   margin: auto;
 }
 .detail-section-container h2 {
@@ -618,7 +588,7 @@ section {
 }
 
 .ceo-section-container {
-  width: 95%;
+  width: 90%;
   max-width: 128rem;
   margin: auto;
   display: -webkit-box;
@@ -765,7 +735,7 @@ section {
   border-radius: 0.7rem;
   background-color: #4338ca;
   color: white;
-  width: min(95%, 128rem);
+  width: min(90%, 128rem);
   outline: 1px solid;
   padding: 2rem;
   margin: auto;
@@ -852,7 +822,7 @@ section {
 }
 
 .objective-container {
-  width: min(95%, 128rem);
+  width: min(90%, 128rem);
   margin: auto;
   min-height: 100vh;
   height: 100%;
@@ -928,7 +898,7 @@ section {
 }
 
 .blog-container {
-  width: 95%;
+  width: 90%;
   max-width: 128rem;
   margin: auto;
 }
