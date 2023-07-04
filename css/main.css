@@ -335,6 +335,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: initial;
+  text-align: center;
 }
 
 .footer-socials {
@@ -387,6 +388,9 @@ nav {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 0;
+  }
+  .footer-page-links nav {
+    text-align: initial;
   }
   .footer-socials {
     margin-top: 0;

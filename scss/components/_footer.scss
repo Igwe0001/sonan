@@ -116,6 +116,7 @@ nav {
     nav {
       justify-content: space-between;
       width: initial;
+      text-align: center;
     }
   }
 }
@@ -157,6 +158,12 @@ nav {
     align-items: center;
     margin-top: 0;
   }
+
+.footer-page-links {
+  nav {
+    text-align: initial;
+  }
+}
 
   .footer-socials {
     margin-top: 0;
