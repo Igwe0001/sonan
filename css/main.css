@@ -24,6 +24,10 @@ main {
   width: 100%;
 }
 
+#main {
+  padding: 4rem 0;
+}
+
 section {
   width: 100%;
 }
@@ -146,6 +150,10 @@ ul.active {
           transform: rotate(-45deg) translate(4px, -3px);
 }
 
+#header {
+  background-color: #4338ca;
+}
+
 @media screen and (min-width: 768px) {
   header ul {
     position: relative;
@@ -198,6 +206,10 @@ body {
 
 main {
   width: 100%;
+}
+
+#main {
+  padding: 4rem 0;
 }
 
 section {
@@ -422,6 +434,10 @@ main {
   width: 100%;
 }
 
+#main {
+  padding: 4rem 0;
+}
+
 section {
   width: 100%;
 }
@@ -487,6 +503,7 @@ section {
   padding: 2% 4%;
   border-radius: 1rem;
   font-size: 1em;
+  font-weight: bold;
 }
 .hero-links a svg {
   width: 3rem;
@@ -558,6 +575,7 @@ section {
 }
 .detail-section-container a {
   padding: 0;
+  font-weight: bold;
   color: rgb(79, 70, 229);
 }
 
@@ -724,6 +742,10 @@ main {
   width: 100%;
 }
 
+#main {
+  padding: 4rem 0;
+}
+
 section {
   width: 100%;
 }
@@ -766,6 +788,7 @@ section {
   margin-top: 2rem;
   width: 22rem;
   border-radius: 0.7rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
@@ -810,6 +833,10 @@ body {
 
 main {
   width: 100%;
+}
+
+#main {
+  padding: 4rem 0;
 }
 
 section {
@@ -890,6 +917,10 @@ main {
   width: 100%;
 }
 
+#main {
+  padding: 4rem 0;
+}
+
 section {
   width: 100%;
 }
@@ -959,4 +990,247 @@ section {
 .blog-data span:last-child {
   color: rgb(75, 85, 99);
   font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+#main {
+  padding: 4rem 0;
+}
+
+section {
+  width: 100%;
+}
+
+#Services {
+  padding: 8rem 0;
+}
+
+.service-container {
+  width: 90%;
+  max-width: 128rem;
+  margin: auto;
+}
+
+.service-title {
+  width: 100%;
+  margin: 2rem 0;
+}
+.service-title h1 {
+  text-align: center;
+  color: #374151;
+  font-size: clamp(2.7rem, 2.5vw, 3rem);
+}
+
+.service-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-image {
+  width: min(90%, 50rem);
+  margin-bottom: 2rem;
+}
+.service-image img {
+  border-radius: 0.7rem;
+  width: 100%;
+}
+
+.service-list-container {
+  width: 90%;
+  max-width: 128rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.service-text p {
+  font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+  color: #4b5563;
+}
+
+.list-title h1 {
+  font-size: clamp(2.7rem, 2.5vw, 3rem);
+  color: #374151;
+}
+.list-title p {
+  font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+  color: #4b5563;
+  margin: 1rem 0;
+}
+
+.service-list-items {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-list {
+  width: 90%;
+  margin: 2rem 0;
+}
+.service-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+.service-list li img {
+  width: 2rem;
+  display: block;
+  margin-right: 1.5rem;
+}
+.service-list li span {
+  display: block;
+}
+
+#subscribe {
+  padding: 4rem 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.6)), to(rgb(10, 10, 10))), url("../../assets/inlytics-linkedin-analytics-tool-17HaOLLOXYM-unsplash.jpg");
+  background-image: linear-gradient(rgba(10, 10, 10, 0.6) 0%, rgb(10, 10, 10) 100%), url("../../assets/inlytics-linkedin-analytics-tool-17HaOLLOXYM-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+#subscribe .container {
+  width: 90%;
+  max-width: 128rem;
+  margin: auto;
+  text-align: center;
+  padding: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+#subscribe .container h1 {
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+#subscribe .container h5 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+#subscribe .container p {
+  margin-bottom: 0.5rem;
+}
+#subscribe .container a {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  display: block;
+  color: white;
+  font-weight: bold;
+  background-color: #4338ca;
+  border-radius: 0.7rem;
+}
+
+#Contact {
+  padding: 4rem 0;
+}
+#Contact .container {
+  width: 90%;
+  max-width: 128rem;
+  margin: auto;
+}
+#Contact .container h3 {
+  font-size: clamp(1.7rem, 2.5vw, 2.3rem);
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+#Contact .container p {
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+#Contact .container p:last-child {
+  margin-top: 4rem;
+}
+#Contact .container p a {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  color: white;
+  font-weight: bold;
+  background-color: #4338ca;
+  border-radius: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .service-data {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-text {
+    width: 45%;
+  }
+  .service-list-items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }

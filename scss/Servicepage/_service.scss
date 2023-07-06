@@ -1,0 +1,184 @@
+@import "../abstract/general";
+@import "../abstract/variables";
+
+#Services {
+  padding: 8rem 0;
+}
+
+.service-container {
+  @include section-styles;
+}
+
+.service-title {
+  width: 100%;
+  margin: 2rem 0;
+  h1 {
+    text-align: center;
+    color: $detail-text-heading;
+    font-size: clamp(2.7rem, 2.5vw, 3rem);
+  }
+}
+
+.service-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-image {
+  width: min(90%, 50rem);
+  margin-bottom: 2rem;
+  img {
+    border-radius: 0.7rem;
+    width: 100%;
+  }
+}
+
+.service-list-container {
+  @include section-styles;
+  margin-top: 2rem;
+}
+
+.service-text {
+  p {
+    font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+    color: $detail-text-paragraph;
+  }
+}
+
+.list-title {
+  h1 {
+    font-size: clamp(2.7rem, 2.5vw, 3rem);
+    color: $detail-text-heading;
+  }
+
+  p {
+    font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+    color: $detail-text-paragraph;
+    margin: 1rem 0;
+  }
+}
+
+.service-list-items {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-list {
+  width: 90%;
+  margin: 2rem 0;
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    img {
+      width: 2rem;
+      display: block;
+      margin-right: 1.5rem;
+    }
+
+    span {
+      display: block;
+    }
+  }
+}
+
+#subscribe {
+  padding: 4rem 0;
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 1) 100%
+    ),
+    url("../../assets/inlytics-linkedin-analytics-tool-17HaOLLOXYM-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  .container {
+    @include section-styles;
+    text-align: center;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+      font-size: clamp(2rem, 2.5vw, 2.5rem);
+      margin-bottom: 0.5rem;
+    }
+
+    h5 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      margin-top: 2rem;
+      padding: 2rem 4rem;
+      display: block;
+      color: white;
+      font-weight: bold;
+      background-color: $collection-bg;
+      border-radius: 0.7rem;
+    }
+  }
+}
+
+#Contact {
+  padding: 4rem 0;
+  .container {
+    @include section-styles;
+    h3 {
+      font-size: clamp(1.7rem, 2.5vw, 2.3rem);
+      color: $detail-text-heading;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: clamp(1.6rem, 2.5vw, 2rem);
+      color: $detail-text-paragraph;
+      margin-bottom: 1rem;
+      &:last-child {
+        margin-top: 4rem;
+      }
+
+      a {
+        margin-top: 2rem;
+        padding: 2rem 4rem;
+        color: white;
+        font-weight: bold;
+        background-color: $collection-bg;
+        border-radius: 0.7rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .service-data {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .service-text {
+    width: 45%;
+  }
+
+  .service-list-items {
+    flex-direction: row;
+  }
+
+  #Contact {
+  }
+}
