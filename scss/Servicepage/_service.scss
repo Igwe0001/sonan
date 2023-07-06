@@ -15,7 +15,7 @@
   h1 {
     text-align: center;
     color: $detail-text-heading;
-    font-size: clamp(2.7rem, 2.5vw, 3rem);
+    font-size: clamp(2.7rem, 2.5vw, 3.5rem);
   }
 }
 
@@ -42,7 +42,7 @@
 
 .service-text {
   p {
-    font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+    font-size: clamp(1.7rem, 2.5vw, 2rem);
     margin-bottom: 1rem;
     line-height: 2.5rem;
     color: $detail-text-paragraph;
@@ -51,12 +51,12 @@
 
 .list-title {
   h1 {
-    font-size: clamp(2.7rem, 2.5vw, 3rem);
+    font-size: clamp(2.7rem, 2.5vw, 3.5rem);
     color: $detail-text-heading;
   }
 
   p {
-    font-size: clamp(1.6rem, 2.5vw, 1.9rem);
+    font-size: clamp(1.7rem, 2.5vw, 2rem);
     color: $detail-text-paragraph;
     margin: 1rem 0;
   }
@@ -85,6 +85,7 @@
 
     span {
       display: block;
+      font-size: 1.7rem;
     }
   }
 }
@@ -169,6 +170,7 @@
   .service-data {
     flex-direction: row;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .service-text {
